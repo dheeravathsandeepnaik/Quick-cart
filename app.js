@@ -14,7 +14,13 @@ const productroute=require("./routes/product")
 const { checkcookie } = require("./middleware/auth");
 const redis = require("redis");
 const app = express();
-mongoose.connect(process.env.MONGO_DB_URI).then((e)=>{console.log("connected")})
+// mongoose.connect(process.env.MONGO_DB_URI).then((e)=>{console.log("connected")})
+mongoose.connect(process.env.MONGO_DB_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+.then(() => console.log("✅ MongoDB connected"))
+.catch(err => console.error("❌ MongoDB connection error:", err.message));
 
 // Middleware
 app.use(cookieParser());
