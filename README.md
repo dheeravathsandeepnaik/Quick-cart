@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://quickcartind.xyz"><img src="https://img.shields.io/badge/Live Site-quickcartind.xyz-blue?style=flat-square" /></a>
+  <a href="https://quick-cart-402v.onrender.com"><img src="https://img.shields.io/badge/Live Site-quickcartind.xyz-blue?style=flat-square" /></a>
   <img src="https://img.shields.io/badge/Made_with-Node.js-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Database-MongoDB-green?style=flat-square" />
 </p>
